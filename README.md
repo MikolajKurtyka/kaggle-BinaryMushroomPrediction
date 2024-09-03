@@ -34,6 +34,7 @@ Upon reviewing top-performing solutions, I observed that high-ranking competitor
 
 1. [6th Place Solution](https://www.kaggle.com/competitions/playground-series-s4e8/discussion/531330): Utilized a large ensemble of 25 models, selecting 13 through hill climbing for the final submission.
 2. [3rd Place Solution](https://www.kaggle.com/competitions/playground-series-s4e8/discussion/523656): Leveraged AutoGluon with significant computational resources to achieve a top score.
+3. [10th Place Solution](https://www.kaggle.com/code/ravaghi/s04e08-mushroom-classification-ensemble): same approach
 
 # Future Strategy
 In future competitions, I plan to adopt a similar approach, focusing on stacking a diverse array of models and exploring automated machine learning (AutoML) frameworks to improve performance and potentially reach a top leaderboard position.
