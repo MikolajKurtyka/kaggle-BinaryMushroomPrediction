@@ -22,7 +22,7 @@ I experimented with several models, including:
 
 1. XGBoost (XGB): The highest-performing model in my experiments, achieving a 0.98480 MCC on the public leaderboard, with an accuracy of around 0.993.
 2. Stacked Models: Created a stack consisting of XGBoost, RandomForestClassifier, KNeighborsClassifier, DecisionTreeClassifier, and Support Vector Machine. This ensemble approach provided robust predictions but did not surpass the individual XGBoost model.
-3. TensorFlow Deep Neural Network: Explored a deep learning approach, which performed well (MCC 0.9827),but less effective compared to XGBoost.
+3. TensorFlow Deep Neural Network: Explored a deep learning approach, which performed well (MCC 0.9845),but less effective compared to XGBoost.
 The models were trained using Kaggle's environment, which provided 4 CPU cores and dual NVIDIA T4 GPUs.
 
 # Competition Results
