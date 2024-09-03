@@ -1,6 +1,18 @@
 # Binary Mushroom Prediction: Kaggle Competition
-In this project, I participated in the [Kaggle competition for the binary prediction of poisonous mushrooms](https://www.kaggle.com/competitions/playground-series-s4e8/), working with a dataset of approximately 3.12 million records from the (Kaggle dataset)[https://www.kaggle.com/competitions/playground-series-s4e8/data] and around 60,000 records from [the UCI secondary mushroom dataset](https://archive.ics.uci.edu/dataset/848/secondary+mushroom+dataset). The dataset contained 20 features (3 numerical and 17 categorical) and 1 target class indicating whether a mushroom is poisonous or edible.
+In this project, I participated in the [Kaggle competition for the binary prediction of poisonous mushrooms](https://www.kaggle.com/competitions/playground-series-s4e8/), working with a dataset of approximately 3.12 million records from the [Kaggle dataset](https://www.kaggle.com/competitions/playground-series-s4e8/data) and around 60,000 records from [the UCI secondary mushroom dataset](https://archive.ics.uci.edu/dataset/848/secondary+mushroom+dataset). The dataset contained 20 features (3 numerical and 17 categorical) and 1 target class indicating whether a mushroom is poisonous or edible.
 
+1. Exploratory Data Analysis (EDA) in **MushroomEDA.ipynb**:
+This Jupyter notebook is dedicated to conducting an in-depth exploratory data analysis (EDA) of the mushroom dataset. It involves understanding the distribution of various features, identifying correlations, and spotting potential outliers. This step is crucial for gaining insights into the data and informing the feature engineering process that follows.
+
+2. Solution Based on Class Data and Classifier in **BinaryMushroomPrediction.ipynb** :
+This notebook provides a solution for predicting whether a mushroom is poisonous or edible. It includes:
+* Data Handling: Preprocessing steps such as handling missing values, encoding categorical features, and scaling numerical data.
+* Model Training: Training various classifiers like XGBoost, RandomForest, KNeighbors, DecisionTree, and Support Vector Machine on the preprocessed data.
+* Prediction: Using the trained models to predict the class of mushrooms and evaluating the models' performance based on metrics such as accuracy, MCC, and others.
+
+These notebooks together represent the complete workflow from data exploration to model training and prediction in the binary classification of mushrooms.
+
+![mushroom](Mushroom.png)
 # Approach
 Exploratory Data Analysis (EDA) and Feature Engineering Conducted thorough EDA to understand the distribution of features, correlations, and potential outliers.
 Performed feature engineering to optimize the dataset for model training, including handling missing values, encoding categorical variables, and feature scaling where necessary.
